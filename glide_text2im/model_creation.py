@@ -20,7 +20,7 @@ def model_and_diffusion_defaults():
         num_heads_upsample=-1,
         attention_resolutions="32,16,8",
         dropout=0.1,
-        text_ctx=128,
+        text_ctx=128,  # 文本的最大长度
         xf_width=512,
         xf_layers=16,
         xf_heads=8,
